@@ -23,6 +23,16 @@
 			<p id="click">不要點他</p>
 			<button type="button" onclick="myFunction()"> 真的不要點我</button>
 		</div>
+		<?php
+			date_default_timezone_set('Asia/Taipei');
+			$datetime = date("H");
+			
+			if ($datetime < "12"){
+				echo "有點早";
+			}else{
+				echo "有點晚";
+			}
+		?>
 		<script>
 			function myFunction() {
 				document.getElementById("click").innerHTML = "─=≡Σ((( つ•̀ω•́)つ─=≡Σ((( つ•̀ω•́)つ─=≡Σ((( つ•̀ω•́)つ─=≡Σ((( つ•̀ω•́)つ─=≡Σ((( つ•̀ω•́)つ─=≡Σ((( つ•̀ω•́)つ─=≡Σ((( つ•̀ω•́)つ─=≡Σ((( つ•̀ω•́)つ";
