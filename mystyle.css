@@ -1,0 +1,25 @@
+body{
+	background-image: url("background.jpg");
+	text-align: center;
+
+}
+/*字為置中*/
+[class|="pro1"]{
+	text-align: center;
+	
+}
+/*鼠標移上去會變大變色*/
+/*設定背景色*/
+div + p:hover{
+	text-align: center;
+	background-color: yellow;
+	font-size:1cm;
+	
+}
+/*將文字內容反白會有特效*/
+::selection{
+	color:white;
+	background-color: green;
+	
+	
+}
